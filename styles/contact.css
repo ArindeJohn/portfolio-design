@@ -1,0 +1,127 @@
+body {
+    background: #151417;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.navbar a, body, .container a {
+  color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+ }
+
+
+.container {
+    height: 90vh;
+    display: flex;
+    margin-left: 65px;
+    gap: 8%;
+   
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.line {
+    height: 70vh;
+}
+
+.line2 {
+    height: 30%;
+}
+
+.links a {
+    margin-left: 70px;
+   font-size: 20px;
+}
+
+.container a {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.second-container {
+    padding: 10px;
+}
+
+.second-container h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.second-container h1, .second-container p, .links a {
+  font-weight: 600;
+}
+
+.second-container p {
+    font-size: 20px;
+    margin-top: 0px ;
+    margin-bottom:  20px;
+}
+
+.links a:hover{
+    text-decoration:underline;
+  }
+
+  form {
+    margin-top: 50px;
+  }
+  
+  .feedback-input {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    line-height: 40px;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  .feedback-input:focus {
+    border: 2px solid #39404b;
+  }
+  
+  textarea {
+    height: 180px;
+    line-height: 150%;
+    resize: vertical;
+  }
+  
+  [type="submit"] {
+    width: 40%;
+    background: white;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+    
+  }
+  [type="submit"]:hover {
+    background: rgb(32, 50, 78);
+  }
+  

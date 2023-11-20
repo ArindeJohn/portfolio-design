@@ -1,0 +1,196 @@
+body {
+    background: #151417;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar a,
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a {
+    margin-left: 20px;
+}
+
+.navbar {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+
+.container {
+    height: 90vh;
+    display: flex;
+    margin-left: 65px;
+    gap: 2%;
+    color: white;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.line {
+    height: 70vh;
+}
+
+.line2 {
+    height: 30%;
+}
+
+.links a {
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container a {
+    margin-bottom: 10px;
+}
+
+.second-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    gap: 10px;
+}
+
+.second-container img:hover,
+.img-text:hover,
+.icon-less:hover {
+    cursor: pointer;
+}
+
+.img-text {
+    position: relative;
+    bottom: 140px;
+    left: 30px;
+    color: black;
+    width: fit-content;
+}
+
+.second-container img {
+    width: 600px;
+}
+
+.img-text p,
+.img-text h1,
+.img-text h5 {
+    margin: 0;
+}
+
+.img-text h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.img-text h5 {
+    font-size: 20px;
+}
+
+.img-text p {
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px;
+    width: fit-content;
+    font-size: 15px;
+}
+
+.second-container>div {
+    height: 330px;
+    width: 600px;
+}
+
+.why {
+    visibility: hidden;
+}
+
+.opaq {
+    animation-name: opaq;
+    animation-duration: 400ms;
+}
+
+@keyframes opaq {
+    0% {
+        opacity: 90%;
+    }
+
+    25% {
+        opacity: 70%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+}
+
+.overlap {
+    background-color: black;
+    color: white;
+    height: 90vh;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 12px;
+    position: absolute;
+    top: 45px;
+    left: 35%;
+
+}
+
+.clickBox {
+    padding-left: 30px;
+}
+
+.overlap h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.overlap h3,
+.overlap p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.end {
+    margin-top: 15px !important;
+    background-color: white;
+    color: black;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px !important;
+}
+
+.about {
+    margin: 20px 0px !important;
+    font-size: 15px !important;
+}
+
+
+.overlap a {
+    text-decoration: none;
+    color: white;
+}
+
+.view {
+    background: #151417;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.links a:hover,
+.view:hover {
+    text-decoration: underline;
+}
+

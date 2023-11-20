@@ -1,0 +1,78 @@
+body {
+    background-image: url(./back.PNG);
+    background-color: black;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container a, .navbar a  {
+    text-decoration: none;
+    color: white;
+}
+.navbar a {
+    margin-left: 20px;
+}
+
+.navbar {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+
+.container {
+    height: 90vh;
+    display: flex;
+    margin-left: 65px;
+    gap: 15%;
+    color: white;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.line {
+    height: 70vh;
+}
+
+.line2 {
+    height: 30%;
+}
+
+.links a {
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container a {
+    margin-bottom: 10px;
+}
+
+.second-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second-container h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+
+.second-container p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
